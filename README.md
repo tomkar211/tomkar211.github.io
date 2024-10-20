@@ -1,1 +1,1 @@
-Hello, I was here ;)
+Hello, I was here.
