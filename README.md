@@ -1,2 +1,5 @@
+Hello, my name is Thomas and this is my personal GitHub repository.
 
-Hello, I was here ;)
+Below you can see some of my projects: 
+
+[Functions](https://github.com/tomkar211/tomkar211.github.io/tree/master/Functions)
