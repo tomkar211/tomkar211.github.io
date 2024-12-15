@@ -1,0 +1,20 @@
+    
+  long long int is_prime(long long int p) {
+    if (p <= 1) {
+        return 1; // Return 1 if number beeing checked is not prime. (0 and 1 are not prime) 
+    }
+    if (p == 2) {
+        return 0; // 2 is prime.
+    }
+    if (p % 2 == 0) {
+        return 1; // Return 1 if number is even and not 2, indicating its not prime. 
+    }
+
+    // Check for odd divisors from 3 to square root of p.
+    for (int i = 3; i * i <= p; i += 2) {
+        if (p % i == 0) {
+            return 1; // Return 1 if p is divisible by i, meaning p is not prime.
+        }
+    }
+    return 0; // Return 0 if there are no divisors. 
+  }
